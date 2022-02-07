@@ -1,0 +1,545 @@
+body{
+	background-color: #F5F5F5;
+}
+
+.section {
+	position: relative;
+	height: 100vh;
+
+}
+
+.section .section-center {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+
+
+
+.booking-form {
+	max-width: 586px;
+	width: 200%;
+	margin-top: 250%;
+  margin-left: -40% ;
+
+}
+
+.booking-form .form-header {
+	text-align: center;
+	margin-bottom: 30px;
+  font-family: 'Playfair Display', serif;
+}
+
+.booking-form .form-header h1 {
+	font-size: 42px;
+	color: #CBA135;
+	margin-top: 0;
+	margin-bottom: 0px;
+	font-weight: 700;
+	text-transform: capitalize;
+}
+
+.booking-form>form {
+  font-family: 'Playfair Display', serif;
+	background-color:rgba(0, 0, 0, 0.75);
+	padding: 40px;
+	-webkit-box-shadow: 0px 5px 15px -5px #818390;
+	box-shadow: 0px 5px 15px -5px #818390;
+  font-size: 100%;
+  
+}
+
+.booking-form .form-group {
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.booking-form .form-control {
+	background-color: rgba(0, 0, 0, 0.2);
+	height: 50px;
+  width: 100%;
+	padding: 0px 20px;
+	border: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border-radius: 0px;
+	color:#818390;
+  font-size: 100%;
+  font-family: 'Lato', sans-serif;
+}
+
+.booking-form .form-control::-webkit-input-placeholder {
+	color: #818390;
+  cursor: pointer;
+  font-family: 'Lato', sans-serif;
+  font-size: 100%;
+}
+
+.booking-form .form-control:-ms-input-placeholder {
+	color:  #818390;
+  cursor: pointer;
+  font-family: 'Lato', sans-serif;
+  font-size: 100%;
+}
+
+.booking-form .form-control::placeholder {
+	color: #818390;
+  cursor: pointer;
+  font-family: 'Lato', sans-serif;
+  font-size: 100%;
+}
+
+.booking-form input[type="date"].form-control:invalid {
+	color: #818390;
+  cursor: pointer;
+  font-family: 'Lato', sans-serif;
+  font-size: 100%;
+}
+
+.booking-form select.form-control {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+  cursor: pointer;
+}
+
+.booking-form select.form-control+.select-arrow {
+	position: absolute;
+	right: 15px;
+	bottom: 6px;
+	width: 32px;
+	line-height: 32px;
+	height: 32px;
+	text-align: center;
+	pointer-events: none;
+	color: #818390;
+	font-size: 14px;
+}
+
+.booking-form select.form-control+.select-arrow:after {
+	content: '\279C';
+	display: block;
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+.booking-form .form-label {
+	color: #CBA135;
+	font-size: 17px;
+	font-weight: 400;
+	margin-bottom: 5px;
+	display: inline-block;
+	letter-spacing: 0.4px;
+  
+}
+
+
+.booking-form .submit-btn {
+  font-family: 'Playfair Display', serif;
+	color: #fff;
+	background-color: #CBA135;
+  font-size: 25px;
+	font-weight: 400;
+	height: 50px;
+	border: none;
+	width: 100%;
+	display: block;
+	letter-spacing: 0.4px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+/* nav bar*/
+nav {
+	position: fixed ;
+	padding: 9px 200px;
+	width: 101%;
+	height: 13%;
+	margin-top: -0.5%;
+	margin-left: -1%;
+	box-sizing: border-box;
+	box-shadow: 0px 2px 10px 0px #CBA135 ; 
+	background: rgba(255, 255, 255, 0.95);
+	z-index: 12;
+	text-align: right;
+}
+  
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {	
+	padding: 10px 30px;
+	color: #CBA135;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-family: 'Playfair Display', serif;
+	text-decoration: none;
+	display: block;
+}
+  
+nav ul li a:hover {
+	background-color: #CBA135;
+	color: white;
+}
+  
+.textbox, .button {
+	box-shadow: 0 0 25px #CBA135, 
+	inset 0 0 1px #CBA135;
+	width: 80%;
+	position: absolute;
+	bottom: 90.8%;
+	right: 0%;
+	text-align: center;
+	transform: translate(-50%);
+}
+  
+.textbox, p {
+	color: #CBA135;
+    padding-top: 5%;
+}
+  
+.button {
+	position: fixed;
+	color: #CBA135;
+	max-width: 100px;
+	padding: 6px;
+	font-family: 'Playfair Display', serif;
+	font-size: 18px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+  
+.button:hover {
+	background: linear-gradient(90deg,
+	rgba(0,0,0,0) 0%,
+	rgba(0,0,0,0) 100%);
+	box-shadow: 0 0 25px rgba(255,255,255,0.1), 
+    inset 0 0 1px rgba(255,255,255,0.7);
+	width: 90%; 
+}
+
+.img8 {
+	margin-top: -122;
+	margin-right: 305%;
+	height: 213px;
+	width: 170px;
+  }
+
+
+#myBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	font-size: 30px;
+	border: none;
+	outline: none;
+	background-color: #CBA135;
+	opacity: 80%;
+	color: white;
+	cursor: pointer;
+	padding: 10px;
+	height: 45px;
+  }
+  
+  #myBtn:hover {
+	background-color: #CBA135;
+	opacity: 60%;
+  }
+  
+
+
+
+
+
+
+.box {
+  width: 40%;
+  position: fixed;
+	bottom: 30px;
+	left: -550px;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.button5 {
+  background: #CBA135;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.3em;
+  padding: 10px;
+  color: white; 
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  margin-left: 100%;
+}
+.button5:hover {
+  border: 2px solid #CBA125;
+  border-radius: 20px/50px;
+
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 300px 500px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+  font-family: 'Lato', sans-serif;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #CBA135;
+  font-family: 'Playfair Display', serif;
+  font-size: 200%;
+}
+.popup .close {
+  position: absolute;
+  top: 8px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 50px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #CBA135;
+}
+.popup .close:hover {
+  color: #CBA135;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+
+
+
+
+
+
+.container {
+
+  width: 320px;
+  margin: 100px auto 0 auto;
+  perspective: 1000px;
+  margin-top: 20%;
+  margin-bottom: 35%;
+ 
+}
+
+.carousel {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d; 
+  animation: rotate360 80s infinite forwards linear;
+}
+.carousel__face { 
+  position: absolute;
+  width: 300px;
+  height: 187px;
+  top: 20px;
+  left: 10px;
+  right: 10px;
+  background-size: cover;
+  box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.5);
+  display: flex;
+}
+
+span {
+  margin: auto;
+  font-size: 2rem;
+}
+
+
+.carousel__face:nth-child(1) {
+  background-image: url("https://www.italianbark.com/wp-content/uploads/2018/01/hotel-room-design-trends-italianbark-interior-design-blog.jpg");
+  transform: rotateY(  0deg) translateZ(430px); }
+.carousel__face:nth-child(2) { 
+  background-image: url("https://media.cntraveler.com/photos/56799015c2ebbef23e7d927b/master/pass/Hotelroom-Alamy.jpg");
+    transform: rotateY( 40deg) translateZ(430px); }
+.carousel__face:nth-child(3) {
+  background-image: url("https://static01.nyt.com/images/2019/03/24/travel/24trending-shophotels1/24trending-shophotels1-superJumbo.jpg");
+  transform: rotateY( 80deg) translateZ(430px); }
+.carousel__face:nth-child(4) {
+  background-image: url("https://www.staysomedays.com/wp-content/uploads/2020/03/kozmo-luxury-hotel-budapest-hongrie-chambre-lit-800x800.jpg");
+  transform: rotateY(120deg) translateZ(430px); }
+.carousel__face:nth-child(5) { 
+  background-image: url("https://media.radissonhotels.net/image/radisson-blu-hotel-indore/guestroom/16256-116514-f64878631_3xl.jpg?impolicy=CustomCrop&cwidth=670&cheight=603");
+ transform: rotateY(160deg) translateZ(430px); }
+.carousel__face:nth-child(6) { 
+  background-image: url("https://www.sanluisobispo.com/news/local/iz25fq/picture229181644/alternates/FREE_1140/TENOVER%20-%20K1%20HI-RES%20rgb.jpg");
+ transform: rotateY(200deg) translateZ(430px); }
+.carousel__face:nth-child(7) { 
+  background-image: url("https://www.thespruce.com/thmb/725vdMPXKfc6uTAKqBEPQvHoNxg=/1000x562/smart/filters:no_upscale()/23-Pitt-Road-Springfield-NJ-0088-Web-47236bb26d304e9188c2f8f5668e2990.jpg");
+ transform: rotateY(240deg) translateZ(430px); }
+.carousel__face:nth-child(8) {
+  background-image: url("https://images.livmatrix.com/https://jumanji.livspace-cdn.com/magazine/wp-content/uploads/2017/07/27163532/hotel-style-bedroom-ideas.jpg");
+  transform: rotateY(280deg) translateZ(430px); }
+.carousel__face:nth-child(9) {
+  background-image: url("http://1.bp.blogspot.com/-9Fan4kQX29E/VOFrDRlpmgI/AAAAAAAAAZM/BxojaVzU6_8/s1600/Buy%2BHotel%2BRoom%2BKing%2BSuite%2BTips.jpg");
+  transform: rotateY(320deg) translateZ(430px); }
+
+
+
+@keyframes rotate360 {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(-360deg);
+  }
+}
+
+
+
+  .rectangle1 {
+	margin-top: 50%;
+	margin-left: -2%;
+  height: 250px;
+  width: 103%;
+  background-color: grey;
+}
+
+
+h4{
+	margin-top: 2.5%;
+	margin-left: 70%;
+	color: #CBA135 ;
+	text-align: left;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	cursor: text;
+	white-space: pre;
+}
+
+
+.img6{
+	margin-left: 38%;
+	margin-top: -48%;
+	
+}
+
+hr{
+	margin-top: -17.5%;
+	border: 2px solid #CBA135 ;
+	margin-left: -8;
+ width: 101%;
+}
+.wrapper1 {
+	position: absolute;
+	top: 219%;
+	left: 43%;
+	transform: translate(-10%, -10%);
+	width: 400px;
+  }
+  
+  /* Style the Un-order list by setting its list-style to none */
+  .wrapper1 ul {
+	list-style: none;
+  }
+  
+  /* Style the list items inside the UL list, by setting its width, height and line-height 
+	and float them to left and set its border and border-radius.
+   */
+  .wrapper1 ul li {
+	width: 40px;
+	height: 40px;
+	line-height: 10px;
+	margin:10px;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 40%;
+	border: 3px solid #CBA135;
+	float: left;
+	transition: all 0.5s ease;
+  }
+  
+  /* Style the icons by setting its color and margin-top value to 20px 
+  to align it properly */
+  .wrapper1 ul li .fa {
+	color: #CBA135;
+	margin-top: 4px;
+	transition: all 0.5s ease;
+  }
+  
+  /* Now target the specific li classes for styling and use box-shadow effect to border and text-shadow effect
+	to icons for glowing effect and use transition property for smooth transition effect. */
+  /*facebook*/
+  .wrapper1 ul li:hover.facebook1 {
+	border: 5px solid #CBA135;
+	box-shadow: 0 0 15px #CBA135;
+	transition: all 0.5s ease;
+  }
+  
+  .wrapper1 ul li:hover .fa-facebook1 {
+	color: #CBA135;
+	text-shadow: 0 0 15px #CBA135; 
+	transition: all 0.5s ease;
+  }
+  
+  
+  /* instagram */
+  .wrapper1 ul li:hover.instagram1 {
+	border: 5px solid #CBA135;
+	box-shadow: 0 0 15px #CBA135;
+	transition: all 0.5s ease;
+  }
+  
+  .wrapper1 ul li:hover .fa-instagram1 {
+	color: #CBA135;
+	text-shadow: 0 0 15px #CBA135;
+	transition: all 0.5s ease;
+  }
+  
+  /* google */
+  .wrapper1 ul li:hover.google1 {
+	border: 5px solid #CBA135;
+	box-shadow: 0 0 15px #CBA135;
+	transition: all 0.5s ease;
+  }
+  
+  .wrapper1 ul li:hover .fa-google1 {
+	color: #CBA135;
+	text-shadow: 0 0 15px #CBA135;
+	transition: all 0.5s ease;
+  }

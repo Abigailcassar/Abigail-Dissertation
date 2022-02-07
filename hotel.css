@@ -1,0 +1,781 @@
+
+body{
+	background-color: #F5F5F5;
+}
+
+/* nav bar*/
+nav {
+	position: fixed ;
+	padding: 12px 200px;
+	width: 101%;
+	height: 13%;
+	margin-top: -51.5%;
+	margin-left: -1%;
+	box-sizing: border-box;
+	box-shadow: 0px 2px 10px 0px #CBA135 ; 
+	background: rgba(255, 255, 255, 0.95);
+	z-index: 400;
+	text-align: right;
+}
+  
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {	
+	padding: 10px 30px;
+	color: #CBA135;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-family: 'Playfair Display', serif;
+	text-decoration: none;
+	display: block;
+}
+  
+nav ul li a:hover {
+	background-color: #CBA135;
+	color: white;
+}
+  
+.textbox, .button {
+	box-shadow: 0 0 25px #CBA135, 
+	inset 0 0 1px #CBA135;
+	width: 80%;
+	position: absolute;
+	bottom: 90.8%;
+	right: 0%;
+	text-align: center;
+	transform: translate(-50%);
+}
+  
+.textbox, p {
+	color: #CBA135;
+    padding-top: 5%;
+}
+  
+.button {
+	position: fixed;
+	color: #CBA135;
+	max-width: 100px;
+	padding: 6px;
+	font-family: 'Playfair Display', serif;
+	font-size: 18px;
+	text-transform: uppercase;
+	cursor: pointer;
+	
+}
+  
+.button:hover {
+	background: linear-gradient(90deg,
+	rgba(0,0,0,0) 0%,
+	rgba(0,0,0,0) 100%);
+	box-shadow: 0 0 25px rgba(255,255,255,0.1), 
+    inset 0 0 1px rgba(255,255,255,0.7);
+	width: 400%; 
+	
+}
+.img8 {
+	margin-top: -122;
+	margin-right: 900%;
+	height: 213px;
+	width: 170px;
+	
+  }
+  .img9 {
+	margin-top: -100;
+	margin-left: -120%;
+
+	height: 405px;
+	width: 300px;
+
+
+  }
+
+/* icon */
+.wrapper {
+	position: absolute;
+	top: 189%;
+	left: 52.5%;
+	transform: translate(-12%, -10%);
+	width: 300px;
+}
+  
+/* Style the Un-order list by setting its list-style to none */
+.wrapper ul {
+    list-style: none;
+}
+  
+/* Style the list items inside the UL list, by setting its width, height and line-height 
+and float them to left and set its border and border-radius. */
+.wrapper ul li {
+	width: 40px;
+	height: 40px;
+	line-height: 10px;
+	margin:10px;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 40%;
+	border: 3px solid gray;
+	float: left;
+	transition: all 0.5s ease;
+  }
+  
+  /* Style the icons by setting its color and margin-top value to 20px 
+  to align it properly */
+  .wrapper ul li .fa {
+	color: grey;
+	margin-top: 4px;
+	transition: all 0.5s ease;
+  }
+  
+  /* Now target the specific li classes for styling and use box-shadow effect to border and text-shadow effect
+	to icons for glowing effect and use transition property for smooth transition effect. */
+  /*facebook*/
+  .wrapper ul li:hover.facebook {
+	border: 5px solid #CBA135;
+	box-shadow: 0 0 15px #CBA135;
+	transition: all 0.5s ease;
+  }
+  
+  .wrapper ul li:hover .fa-facebook {
+	color: #CBA135;
+	text-shadow: 0 0 15px #CBA135; 
+	transition: all 0.5s ease;
+  }
+  
+  /* instagram */
+  .wrapper ul li:hover.instagram {
+	border: 5px solid #CBA135;
+	box-shadow: 0 0 15px #CBA135;
+	transition: all 0.5s ease;
+  }
+  
+  .wrapper ul li:hover .fa-instagram {
+	color: #CBA135;
+	text-shadow: 0 0 15px #CBA135;
+	transition: all 0.5s ease;
+  }
+  
+  /* google */
+  .wrapper ul li:hover.google {
+	border: 5px solid #CBA135;
+	box-shadow: 0 0 15px #CBA135;
+	transition: all 0.5s ease;
+  }
+  
+  .wrapper ul li:hover .fa-google {
+	color: #CBA135;
+	text-shadow: 0 0 15px #CBA135;
+	transition: all 0.5s ease;
+  }
+  
+
+/* icon 2 */
+  .wrapper1 {
+	position: absolute;
+	top: 317%;
+	left: 43%;
+	transform: translate(-10%, -10%);
+	width: 400px;
+  }
+  
+  /* Style the Un-order list by setting its list-style to none */
+  .wrapper1 ul {
+	list-style: none;
+  }
+  
+  /* Style the list items inside the UL list, by setting its width, height and line-height 
+	and float them to left and set its border and border-radius.
+   */
+  .wrapper1 ul li {
+	width: 40px;
+	height: 40px;
+	line-height: 10px;
+	margin:10px;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 40%;
+	border: 3px solid #CBA135;
+	float: left;
+	transition: all 0.5s ease;
+  }
+  
+  /* Style the icons by setting its color and margin-top value to 20px 
+  to align it properly */
+  .wrapper1 ul li .fa {
+	color: #CBA135;
+	margin-top: 4px;
+	transition: all 0.5s ease;
+  }
+  
+  /* Now target the specific li classes for styling and use box-shadow effect to border and text-shadow effect
+	to icons for glowing effect and use transition property for smooth transition effect. */
+  /*facebook*/
+  .wrapper1 ul li:hover.facebook1 {
+	border: 5px solid #CBA135;
+	box-shadow: 0 0 15px #CBA135;
+	transition: all 0.5s ease;
+  }
+  
+  .wrapper1 ul li:hover .fa-facebook1 {
+	color: #CBA135;
+	text-shadow: 0 0 15px #CBA135; 
+	transition: all 0.5s ease;
+  }
+  
+  
+  /* instagram */
+  .wrapper1 ul li:hover.instagram1 {
+	border: 5px solid #CBA135;
+	box-shadow: 0 0 15px #CBA135;
+	transition: all 0.5s ease;
+  }
+  
+  .wrapper1 ul li:hover .fa-instagram1 {
+	color: #CBA135;
+	text-shadow: 0 0 15px #CBA135;
+	transition: all 0.5s ease;
+  }
+  
+  /* google */
+  .wrapper1 ul li:hover.google1 {
+	border: 5px solid #CBA135;
+	box-shadow: 0 0 15px #CBA135;
+	transition: all 0.5s ease;
+  }
+  
+  .wrapper1 ul li:hover .fa-google1 {
+	color: #CBA135;
+	text-shadow: 0 0 15px #CBA135;
+	transition: all 0.5s ease;
+  }
+  
+
+  /* paragraph*/
+h5 {
+	color: #CBA135 ;
+	margin-top: -41%;
+	margin-left: 55%;
+	font-family: 'Playfair Display', serif;
+	font-size: 41px;	
+  }
+
+h6 {
+	color: grey;
+	margin-top: -2%;
+	margin-left: 53%;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	white-space: pre;
+  }
+
+  /* reception image*/
+.img1 {
+  display: block;
+  margin: -4%;
+  width:105%;
+}
+
+ /* serveces*/
+ .img2 {
+	display: block;
+    margin-top: 9%;
+	margin-left: 11%;
+	width: 20%;
+  }
+  h1 {
+	color: #808080;
+	margin-top: -4%;
+	margin-left: 16%;
+	font-family: 'Playfair Display', serif;
+	font-size: 30px;
+	cursor: text;
+  }
+  
+  .img3 {
+	display: block;
+	margin-top: -20%;
+	margin-left: 29%;
+	width: 20%;
+  }
+
+  .img4 {
+	display: block;
+	margin-top: -20%;
+	margin-left: 49%;
+	width: 20%;
+  }
+
+  .img5 {
+	display: block;
+	margin-top: -20%;
+	margin-left: 69%;
+	width: 20%;
+  }
+
+  h2 {
+	color: grey;
+	margin-top: -1%;
+	margin-left: 14%;
+	font-family: 'Lato', sans-serif;
+	font-size: 19px;
+	cursor: text;
+	white-space: pre;
+	
+  }
+ h3 {
+	margin-top: -25%;
+	color: #CBA135 ;
+	font-family: 'Playfair Display', serif;
+	font-size: 49px;
+}
+
+/* grey*/
+.rectangle1 {
+	margin-top: 13%;
+	margin-left: -2%;
+  height: 250px;
+  width: 103%;
+  background-color: grey;
+}
+
+h4{
+	margin-top: -15%;
+	margin-left: 70%;
+	color: #CBA135 ;
+	text-align: left;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	cursor: text;
+	white-space: pre;
+}
+
+.img6{
+	margin-left: -80%;
+	margin-top: -260%;	
+}
+
+hr{
+	margin-top: -16%;
+	border: 2px solid #CBA135 ;
+	margin-left: -8;
+    width: 101%;
+}
+  .rectangle {
+	height: 250px;
+	margin-top: 7%;
+	width: 100%;
+	background-color: #F8F8F8;
+	border-radius:9px;
+	text-align:center;
+	vertical-align:middle;
+	justify-content:center;
+	align-items: center;
+  }
+
+  
+  /* Reviews */
+  .content-slider {
+	width: 100%;
+	height: 360px;
+  }
+  
+  .slider {
+	height: 50px;
+	width: 680px;
+	margin: 40px auto 0;
+	overflow: visible;
+	position: relative;
+  }
+  
+  .mask {
+	overflow: hidden;
+	height: 320px;
+  }
+  
+  .slider ul {
+	margin: 0;
+	padding: 0;
+	position: relative;
+  }
+  
+  .slider li {
+	width: 680px;
+	height: 320px;
+	position: absolute;
+	top: -100px;
+	list-style: none;
+  }
+  
+  .slider .quote {
+	margin-top: 15%;
+	font-size: 25px;
+	font-style: italic;
+	text-align: center;
+	color: grey;
+	font-family: 'Lato', sans-serif;
+  }
+  
+  .slider .source {
+	font-size: 17px;
+	text-align: center;
+	color: grey;
+	font-family: 'Lato', sans-serif;
+  }
+  
+  .slider li.anim1 {
+	animation: cycle 15s linear infinite;
+  }
+  
+  .slider li.anim2 {
+	animation: cycle2 15s linear infinite;
+  }
+  
+  .slider li.anim3 {
+	animation: cycle3 15s linear infinite;
+  }
+  
+  .slider li.anim4 {
+	animation: cycle4 15s linear infinite;
+  }
+  
+  .slider li.anim5 {
+	animation: cycle5 15s linear infinite;
+  }
+  
+  .slider:hover li {
+	animation-play-state: paused;
+  }
+  
+  @keyframes cycle {
+	0% {
+	  top: 0px;
+	}
+	4% {
+	  top: 0px;
+	}
+	16% {
+	  top: 0px;
+	  opacity: 1;
+	  z-index: 0;
+	}
+	20% {
+	  top: 100px;
+	  opacity: 0;
+	  z-index: 0;
+	}
+	21% {
+		top: -100px;
+	  opacity: 0;
+	  z-index: -1;
+	}
+	50% {
+		top: -100px;
+	  opacity: 0;
+	  z-index: -1;
+	}
+	92% {
+	  ttop: -100px;
+	  opacity: 0;
+	  z-index: 0;
+	}
+	96% {
+	  top: -325px;
+	  opacity: 0;
+	}
+	100% {
+	  top: 0px;
+	  opacity: 1;
+	}
+  }
+  
+  @keyframes cycle2 {
+	0% {
+	  top: -325px;
+	  opacity: 0;
+	}
+	16% {
+	  top: -325px;
+	  opacity: 0;
+	}
+	20% {
+	  top: 0px;
+	  opacity: 1;
+	}
+	24% {
+	  top: 0px;
+	  opacity: 1;
+	}
+	36% {
+	  top: 0px;
+	  opacity: 1;
+	  z-index: 0;
+	}
+	40% {
+	  top: 325px;
+	  opacity: 0;
+	  z-index: 0;
+	}
+	41% {
+	  top: -325px;
+	  opacity: 0;
+	  z-index: -1;
+	}
+	100% {
+	  top: -325px;
+	  opacity: 0;
+	  z-index: -1;
+	}
+  }
+  
+  @keyframes cycle3 {
+	0% {
+	  top: -325px;
+	  opacity: 0;
+	}
+	36% {
+	  top: -325px;
+	  opacity: 0;
+	}
+	40% {
+	  top: 0px;
+	  opacity: 1;
+	}
+	44% {
+	  top: 0px;
+	  opacity: 1;
+	}
+	56% {
+	  top: 0px;
+	  opacity: 1;
+	  z-index: 0;
+	}
+	60% {
+	  top: 325px;
+	  opacity: 0;
+	  z-index: 0;
+	}
+	61% {
+	  top: -325px;
+	  opacity: 0;
+	  z-index: -1;
+	}
+	100% {
+	  top: -325px;
+	  opacity: 0;
+	  z-index: -1;
+	}
+  }
+  
+  @keyframes cycle4 {
+	0% {
+	  top: -325px;
+	  opacity: 0;
+	}
+	56% {
+	  top: -325px;
+	  opacity: 0;
+	}
+	60% {
+	  top: 0px;
+	  opacity: 1;
+	}
+	64% {
+	  top: 0px;
+	  opacity: 1;
+	}
+	76% {
+	  top: 0px;
+	  opacity: 1;
+	  z-index: 0;
+	}
+	80% {
+	  top: 325px;
+	  opacity: 0;
+	  z-index: 0;
+	}
+	81% {
+	  top: -325px;
+	  opacity: 0;
+	  z-index: -1;
+	}
+	100% {
+	  top: -325px;
+	  opacity: 0;
+	  z-index: -1;
+	}
+  }
+  
+  @keyframes cycle5 {
+	0% {
+	  top: -325px;
+	  opacity: 0;
+	}
+	76% {
+	  top: -325px;
+	  opacity: 0;
+	}
+	80% {
+	  top: 0px;
+	  opacity: 1;
+	}
+	84% {
+	  top: 0px;
+	  opacity: 1;
+	}
+	96% {
+	  top: 0px;
+	  opacity: 1;
+	  z-index: 0;
+	}
+	100% {
+	  top: 325px;
+	  opacity: 0;
+	  z-index: 0;
+	}
+  }
+
+
+/* book now box*/
+.section {
+	position: relative;
+	height: 100vh;
+}
+.section .section-center {
+	position: absolute;
+	top: 40%;
+	left: 0;
+	right: 0;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+#booking::before {
+    content: '';
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.booking-form {
+	position: relative;
+	margin-top: -40%;
+	width: 320px;
+	height: 350px;
+	background: rgba(0,0,0,0.6);
+}
+
+.booking-form>form .row.no-margin {
+	margin-right: 00px;
+	margin-left: 00px;
+}
+
+.booking-form .form-group {
+	position: relative;
+	padding: 25px;
+	margin-bottom: 0px;
+}
+
+/*dates*/
+.booking-form .form-control {
+	background-color: transparent;
+	border-radius: 0px;
+	border: none;
+	height: 50px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	font-size: 20px;
+	color: 818390;
+	font-weight: 400;
+	padding: 0;
+	cursor: pointer;
+}
+
+
+
+
+.booking-form select.form-control {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+.booking-form select.form-control+.select-arrow {
+	position: absolute;
+	right: 250px; /* arrow */
+	bottom: 34px;
+	width: 32px;
+	line-height: 32px;
+	height: 32px;
+	text-align: center;
+	pointer-events: none;
+	color: #818390;
+	font-size: 20px;
+}
+
+.booking-form select.form-control+.select-arrow:after {
+	content: '\279C';
+	display: block;
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+/*check in  */
+.booking-form .form-label {
+	font-family: 'Playfair Display', serif;
+	color: #CBA135 ;
+	display: block;
+	font-weight: 400;
+	height: 25px;
+	line-height: 25px;
+	font-size: 20px;
+	margin-left: 0%;
+	margin-top: 0%;
+	
+}
+.booking-form .form-btn {
+	padding: 25px;
+
+}
+
+.booking-form .submit-btn {
+	margin-top: -50%;
+margin-left: 65%;
+	background: #CBA135;
+	border: none;
+	text-transform: capitalize;
+	display: block;
+	border-radius: 2px;
+	width: 35%;
+	font-family: 'Playfair Display', serif;
+	height: 65px;
+	font-size: 16px;
+	font-weight: 400;
+	color: #fff;
+
+}
+
+/*top button*/
+  #myBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	font-size: 30px;
+	border: none;
+	outline: none;
+	background-color: #CBA135;
+	opacity: 80%;
+	color: white;
+	cursor: pointer;
+	padding: 10px;
+	height: 45px;
+  }
+  
+  #myBtn:hover {
+	background-color: #CBA135;
+	opacity: 60%;
+  }

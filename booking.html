@@ -1,0 +1,177 @@
+<html lang="en">
+<head>
+  <title>Book Now</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,400i,700">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="booking.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+  <body>
+
+
+    <nav>
+      <ul>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="room.html">Rooms</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <div class="button"onclick="document.location='booking.html'">Book Now </div>
+        <a href="hotel.html">
+          <img src="LOGO-26.png" class="img8" alt="phone" >
+          </a>
+      </ul>
+    </nav>
+
+    
+  <div id="booking" class="section">
+  <div class="section-center">
+  <div class="container">
+  <div class="row">
+  <div class="booking-form">
+  <div class="form-header">
+  <h1>Make your reservation</h1>
+  </div>
+  <form>
+  <div class="row">
+  <div class="col-md-6">
+  <div class="form-group">
+  <span class="form-label">Check In</span>
+  <input class="form-control" type="date" required="">
+  </div>
+  </div>
+  <div class="col-md-6">
+  <div class="form-group">
+  <span class="form-label">Check out</span>
+  <input class="form-control" type="date" required="">
+  </div>
+  </div>
+  </div>
+  <div class="row">
+  <div class="col-md-4">
+  <div class="form-group">
+  <span class="form-label">No of Rooms</span>
+  <select class="form-control">
+  <option>1</option>
+  <option>2</option>
+  <option>3</option>
+  </select>
+  <span class="select-arrow"></span>
+  </div>
+  </div>
+  <div class="col-md-4">
+  <div class="form-group">
+  <span class="form-label">Type of Room</span>
+  <select class="form-control">
+  <option>Comfort Room</option>
+  <option>Delux Room</option>
+  <option>Superior Room</option>
+  </select>
+  <span class="select-arrow"></span>
+  </div>
+  </div>
+  <div class="col-md-4">
+  <div class="form-group">
+  <span class="form-label">Adults</span>
+  <select class="form-control">
+  <option>1</option>
+  <option>2</option>
+  <option>3</option>
+  <option>4</option>
+  <option>5</option>
+  </select>
+  <span class="select-arrow"></span>
+  </div>
+  </div>
+  </div>
+  <div class="form-btn">
+  <button class="submit-btn">Check availability</button>
+  </div>
+  </form>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
+
+
+
+
+	<script>
+	//Get the button
+	var mybutton = document.getElementById("myBtn");
+	
+	// When the user scrolls down 20px from the top of the document, show the button
+	window.onscroll = function() {scrollFunction()};
+	
+	function scrollFunction() {
+	  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		mybutton.style.display = "block";
+	  } else {
+		mybutton.style.display = "none";
+	  }
+	}
+	
+	// When the user clicks on the button, scroll to the top of the document
+	function topFunction() {
+	  document.body.scrollTop = 0;
+	  document.documentElement.scrollTop = 0;
+	}
+	</script>
+
+
+
+<div class="container">
+  <div class="carousel">
+    <div class="carousel__face"></div>
+    <div class="carousel__face"></div>
+    <div class="carousel__face"></div>
+    <div class="carousel__face"></div>
+    <div class="carousel__face"></div>
+    <div class="carousel__face"></div>
+    <div class="carousel__face"></div>
+    <div class="carousel__face"></div>
+    <div class="carousel__face"></div>
+  </div>
+</div>
+
+<div class="box">
+	<a class="button5" href="#popup1">Discount</a>
+</div>
+
+<div id="popup1" class="overlay">
+	<div class="popup">
+		<h2>Hey!</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="content">
+			Don't forget that when booking directly with us you get a 20% discount.
+		</div>
+	</div>
+</div>
+
+<div class="rectangle"> 
+
+	<div class="rectangle1"></div>
+
+ <hr>
+ <h4>reservations@saintpeter.com.mt
+    
+  
+(+356) 2121 2121
+                     
+  
+Valletta,  
+VLT 9045 Valetta,  
+Gozo, Malta</h4>
+ <div class="wrapper1">
+	<ul>
+		
+	  <li class="facebook1"><a href="https://www.facebook.com/"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
+	  <li class="instagram1"><a href="https://www.instagram.com/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+	  <li class="google1"><a href="https://mail.google.com/mail/u/0/#inbox"><i class="fa fa-google fa-2x" aria-hidden="true"></i></a></li>
+    <img src="inf-01.png"  class="img6" alt="phone" >
+	</ul>
+  </div>
+
+  </body></html>
